@@ -28,7 +28,10 @@ app.get("/checksession", (req,res) =>{
     res.json(req.session)
 })
 app.get("/",(req,res) =>{
-    res.send("Server Is Up.")
+    res.json({
+        status : "success",
+        message : "Server is Up"
+    })
 })
 app.use("/auth", require("./routes/authRouter"))
 app.use("/task", require("./routes/taskRouter"))
