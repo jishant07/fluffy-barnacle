@@ -15,3 +15,11 @@ The documentation is hosted on this URL => [https://documenter.getpostman.com/vi
 2. Online (via Heroku)
 
     1. Use the documentation and go to the url : [https://elred.herokuapp.com/](https://elred.herokuapp.com/)
+
+
+## Auth Flow:
+
+1. SignUp
+2. Login (sends OTP in response, which can be sent in mail)
+3. Verify OTP
+4. Do Further Tasks
