@@ -19,7 +19,7 @@ app.use(cookieParser())
 app.use(expressSession({
     secret: "07a617be1f3b266bc0c749956a982070",
     saveUninitialized:true,
-    cookie: { maxAge: 30000 * 200 },
+    cookie: { maxAge:  30000 },
     resave: false,
     rolling : false,
     store : mongoStore
