@@ -1,7 +1,5 @@
 globalModel = {}
 
-globalModel.MONGO_URI = "mongodb+srv://jishantacharya:qO6AxNNHQhFgnVFr@main.ututs.mongodb.net/elRed?retryWrites=true&w=majority";
-
 globalModel.OTPGen = () =>{
     var corpus = "0123456789"
     var OTP = ""
