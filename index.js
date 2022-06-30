@@ -9,7 +9,7 @@ var databaseModel = require("./models/databaseModel")
 var PORT = process.env.PORT || 3000;
 
 var mongoStore = new mongoDBStore({
-    uri : globalModel.MONGO_URI,
+    uri : process.env.MONGO_URI,
     databaseName : 'elRed',
     collection : "sessions"
 })
