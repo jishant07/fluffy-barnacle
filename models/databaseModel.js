@@ -1,3 +1,4 @@
+var dotenv = require('dotenv').config()
 const mongoose = require('mongoose')
 const globalModel = require('../models/globalModel')
 
