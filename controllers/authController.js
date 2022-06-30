@@ -10,6 +10,7 @@ authController.login = (req,res) => {
             req.session.email = user.email
             req.session.OTP = user.OTP
             req.session.userId = user._id
+            req.session.isAuth ? delete req.session.isAuth : null;
             console.log(req.session)
             delete user.password
             res.json(globalModel.success(user))
