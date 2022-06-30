@@ -25,9 +25,6 @@ app.use(expressSession({
     store : mongoStore
 }));
 
-app.get("/checksession", (req,res) =>{
-    res.json(req.session)
-})
 app.get("/",(req,res) =>{
     res.json({
         status : "success",
