@@ -1,2 +1,3 @@
-# fluffy-barnacle
-Session Based Authentication API for Task Management
+# elRed Submission
+
+This is the version controlled repository of the submission task provided by elREd for the freelance position.

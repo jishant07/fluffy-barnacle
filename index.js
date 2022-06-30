@@ -1,3 +1,4 @@
+require('dotenv').config()
 var app = require('express')()
 var cookieParser = require('cookie-parser')
 var expressSession = require('express-session')
